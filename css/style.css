@@ -306,3 +306,17 @@ footer p {
     }
 
 }
+
+/* 2026 syllabus expansion */
+.badge{display:inline-block;padding:5px 10px;border-radius:999px;background:#e0e7ff;color:#1e3a8a;font-size:12px;font-weight:700;margin:3px}
+.topic-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;padding:0;list-style:none}
+.topic-list li,.question-box{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:16px;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.topic-list a{color:#172554;font-weight:700}.muted{color:#6b7280}.paper-banner{background:#eef2ff;border-left:5px solid #1e3a8a;padding:18px;border-radius:10px;margin:20px 0}
+.breadcrumbs{font-size:14px;color:#6b7280;margin-bottom:18px}.breadcrumbs a{color:#1e3a8a}.syllabus-line{border-left:4px solid #d97706;background:#fffbeb;padding:14px 18px;border-radius:8px}
+.question-meta{font-size:13px;color:#6b7280;margin-bottom:6px}.status{font-size:12px;font-weight:bold}.status.ready{color:#047857}.status.plan{color:#92400e}
+.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:12px;border:1px solid #e5e7eb;text-align:left;vertical-align:top}th{background:#eef2ff;color:#172554}
+@media(max-width:700px){.topic-list{grid-template-columns:1fr}.hero h1{font-size:34px}}
+
+.source-panel{margin:2rem 0;padding:1.25rem;border:1px solid #d8dee9;border-radius:14px;background:#f8fafc}.source-panel h2{margin-top:0}
+
+.study-card{margin:18px 0;padding:18px;border:1px solid #d9e1ea;border-radius:14px;background:#fff}.study-card h3{margin-top:0}.study-card li{margin:7px 0}.study-card:target{outline:3px solid #dbeafe}
